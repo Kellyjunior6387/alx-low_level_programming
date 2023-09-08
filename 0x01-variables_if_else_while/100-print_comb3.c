@@ -16,9 +16,10 @@ for (second = first + 1; second < 10; second++)
 if (first != 8 || second != 9)
 {
 	putchar(',');
+	putchar(' ');
+}
+}
+}
 	putchar('\n');
-}
-}
-}
 	return (0);
 }
