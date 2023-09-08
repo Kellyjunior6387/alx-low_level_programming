@@ -6,7 +6,7 @@
 int main(void)
 {	char lowerletters = 'a';
 	char upperletters = 'A';
-while (lowerletters  <= 'a')
+while (lowerletters  <= 'z')
 {
 	putchar(lowerletters);
 	lowerletters++;
@@ -14,6 +14,7 @@ while (lowerletters  <= 'a')
 while (upperletters <= 'Z')
 {
 	putchar(upperletters);
+	upperletters++;
 }
 	putchar('\n');
 	return (0);
