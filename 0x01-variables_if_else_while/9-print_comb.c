@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-char ch;
-ch = '0';
-while (ch <= '9')
+int i;
+i = '0';
+while (i <= 10)
 {
-	putchar(ch);
+	putchar(i + '0');
 	putchar(',');
 	putchar(' ');
-	ch++;
+	i++;
 }
 	putchar('\n');
 	return (0);
