@@ -7,9 +7,10 @@ int main(void)
 {
 int i;
 int j;
+i = 0;
 while (i <= 99)
 {
-	j = 1;
+	j = i;
 while (j <= 99)
 {
 	if (j != i)
