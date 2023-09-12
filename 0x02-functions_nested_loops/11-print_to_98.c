@@ -16,7 +16,7 @@ void print_to_98(int n)
 		{
 			if (i != 98)
 			{
-				putchar(i + '0');
+				printf("%d, ", i);
 			}
 			else if (n >= 98)
 			{
@@ -24,11 +24,11 @@ void print_to_98(int n)
 				{
 					if (j != 98)
 					{
-						putchar(j + '0');
+						printf("%d, ", j);
 					}
 					else if (j == 98)
 					{
-						putchar(j + '0');
+						printf("%d, ", j);
 					}
 				}
 			}
