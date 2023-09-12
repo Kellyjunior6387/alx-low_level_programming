@@ -6,9 +6,9 @@
 int main(void)
 {
 	int count;
-	unsigned long start = 1, end = 2, sum;
+	unsigned long start = 0, end = 1, sum;
 
-	for (count = 2; count < 50; count++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = start + end;
 		printf("%lu", sum);
@@ -20,7 +20,7 @@ int main(void)
 		}
 		else
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	return (0);
