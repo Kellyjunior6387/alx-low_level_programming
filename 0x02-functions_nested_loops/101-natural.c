@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a;
+	int a, sum;
 
 	sum = 0;
 	for (a = 0; a  < 1024; a++)
@@ -16,6 +16,6 @@ int main(void)
 			sum += a;
 		}
 		printf("%d\n", sum);
-		return (0);
 	}
+	return (0);
 }
