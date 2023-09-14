@@ -26,9 +26,9 @@ int main(void)
 			{
 				printf("Buzz");
 			}
-			else if
+			else
 			{
-			printf("Buzz ");
+				printf("Buzz ");
 			}
 		}
 		else
