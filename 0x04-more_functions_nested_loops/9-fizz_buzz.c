@@ -18,7 +18,7 @@ int main(void)
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
-			print("Buzz");
+			printf("Buzz");
 		}
 		else if (i == 1)
 		{
@@ -30,4 +30,5 @@ int main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
