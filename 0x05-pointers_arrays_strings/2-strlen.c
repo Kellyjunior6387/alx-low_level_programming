@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * _strlen - Function that returns the length of a string
  * @s: The string whose length is to be determined
@@ -14,5 +14,5 @@ int _strlen(char *s)
 		length++;
 		s++;
 	}
+	return (length);
 }
-
