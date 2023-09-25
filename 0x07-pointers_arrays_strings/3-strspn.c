@@ -1,4 +1,4 @@
-#include "main.h" 3-strspn.c
+#include "main.h"
 /**
  * _strspn - Function to return number of bytes in s consisting
  * bytes from accept
