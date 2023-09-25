@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strchr : a function to look for c in s
+ * _strchr - a function to look for c in s
  * @s: The string where the character is to be located
  * @c: The character to be located
  * Return: A pointer to the first occurence of c
