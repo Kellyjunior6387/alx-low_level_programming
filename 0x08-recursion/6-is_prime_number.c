@@ -6,8 +6,7 @@
  */
 int is_prime_number(int n)
 {
-	prime_number_helper(n, 2);
-	return (0);
+	return (_prime_number_helper(n, 2));
 }
 /**
  * _prime_number_helper - a function to check if a digit is a prime number
