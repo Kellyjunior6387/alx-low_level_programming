@@ -9,7 +9,7 @@ int is_prime_number(int n)
 	return (prime_number_helper(n, 2));
 }
 /**
- * _prime_number_helper - a function to check if a digit is a prime number
+ * prime_number_helper - a function to check if a digit is a prime number
  * @n: input
  * @divisor: input
  * Return: 1 if prime number
