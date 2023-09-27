@@ -22,14 +22,14 @@ int _sqrt_recursion(int n)
 int helper(int n, int i, int j)
 {
 	int mid;
-	long long int square;
+	long  int square;
 
 	if (i > j)
 	{
 		return (-1);
 	}
 	mid = i + (j - i) / 2;
-	square = (long long)mid * mid;
+	square = (long)mid * mid;
 	if (n == square)
 	{
 		return (mid);
