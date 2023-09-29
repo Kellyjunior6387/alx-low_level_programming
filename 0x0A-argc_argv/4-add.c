@@ -31,7 +31,6 @@ int check_ifnumber(char *str)
  *
  * Return: Always 0 (Success)
  */
-
 int main(int argc, char *argv[])
 {
 	int i;
@@ -55,6 +54,7 @@ int main(int argc, char *argv[])
 
 		i++;
 	}
-	printf("%d\n", result);
-	return (0);
+		printf("%d\n", result);
+
+		return (0);
 }
