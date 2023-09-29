@@ -9,7 +9,7 @@
  */
 int check_ifnumber(char *str)
 {
-	 int i;
+	  unsigned int i;
 
 	i = 0;
 	while (i < strlen(str))
