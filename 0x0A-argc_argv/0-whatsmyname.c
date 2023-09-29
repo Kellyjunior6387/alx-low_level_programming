@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - to print the name of the file
  * @argc: The number of arguments
@@ -7,9 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
-
-	_putchar(argv[i]);
-	_putchar('\n');
+	if (argc != 0)
+		printf("%s\n", *argv);
 	return (0);
 }

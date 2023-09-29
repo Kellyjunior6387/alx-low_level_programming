@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
 /**
  * main - multiply two numbers given as arguments
  * @argc: The number of arguments given
@@ -9,17 +12,15 @@ int main(int argc, char *argv[])
 {
 	int result;
 
-	if (argc < 3)
+	if (argc < 3 || argc > 3)
 	{
-		_putchar("Error");
-		_putchar('\n');
+		printf("Error\n");
 		return (1);
 	}
 	else
 	{
-		result = *argv[1] * *argv[2];
-		_putchar(result);
-		_putchar('\n');
+		result = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", result);
 	}
 		return (0);
 }
