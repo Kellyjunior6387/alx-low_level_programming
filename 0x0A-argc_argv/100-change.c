@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <ctype.h>
 #include <stdlib.h>
 /**
  * main - a program to add positive numbers
@@ -10,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int cent, i, coins;
+	int cent , i, coins;
 	int number[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
