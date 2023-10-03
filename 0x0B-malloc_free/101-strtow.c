@@ -14,7 +14,7 @@ int count_word(char *string)
 	flag = 0;
 	words = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; string[i] != '\0'; i++)
 	{
 		if (s[i] == ' ')
 			flag = 0;
@@ -60,7 +60,7 @@ char **strtow(char *str)
 				while (start < end)
 					*tmp++ = str[start++];
 				*tmp = '\0';
-				arrray[j] = tmp - count;
+				array[j] = tmp - count;
 				j++;
 				count = 0;
 			}
