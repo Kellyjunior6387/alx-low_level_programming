@@ -8,12 +8,12 @@
  */
 char *_strdup(char *str)
 {
-	unsigned int i;
+	int i;
 	int length;
 	char *string;
 
 	i = 0;
-	while(s[i] != '\0')
+	while (str[i] != '\0')
 	{
 		length++;
 		i++;
