@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		_putchar('Error');
-		_putchar('\n'):
+		_putchar('\n');
 		return (1);
 	}
 	cent = atoi(argv[1]);
