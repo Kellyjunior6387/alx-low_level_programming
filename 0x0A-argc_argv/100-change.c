@@ -15,7 +15,8 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("Error\n");
+		_putchar('Error');
+		_putchar('\n'):
 		return (1);
 	}
 	cent = atoi(argv[1]);
@@ -32,6 +33,7 @@ int main(int argc, char *argv[])
 			cent -= number[i];
 		}
 	}
-	printf("%d\n", coins);
+	_putchar(coins);
+	_putchar('\n');
 	return (0);
 }
