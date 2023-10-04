@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		_putchar('Error');
+		_putchar("Error");
 		_putchar('\n');
 		return (1);
 	}
