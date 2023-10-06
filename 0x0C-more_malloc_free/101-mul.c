@@ -36,6 +36,14 @@ int _strlen(char *s)
 	return (i);
 }
 /**
+ * print_error - Function to print error
+ */
+void print_error(void)
+{
+	printf("Error\n");
+	exit(98);
+}
+/**
  * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
@@ -52,7 +60,7 @@ int main(int argc, char *argv[])
 		print_error();
 	length1 = _strlen(s1);
 	length2 = _strlen(s2);
-	length = len1 + len2 + 1;
+	length = length1 + length2 + 1;
 	result = malloc(sizeof(int) * length);
 	if (!result)
 		return (1);
@@ -85,12 +93,3 @@ int main(int argc, char *argv[])
 	free(result);
 	return (0);
 }
-/**
- * print_error - Function to print error
- */
-void print_eror(void)
-{
-	printf("Error\n");
-	exit(98);
-}
-
