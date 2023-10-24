@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 /**
  * add_nodeint_end - Function to add a new node at end of the list
@@ -25,7 +25,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 	else
 	{
-		while(temp->next != NULL)
+		while (temp->next != NULL)
 		{
 			temp  = temp->next;
 		}
