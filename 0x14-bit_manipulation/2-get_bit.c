@@ -4,9 +4,9 @@
  * get_bit - returns the value of a bit at a given index
  * @n: number to check bits in
  * @index: index at which to check bit
- * Return: value of the bit 
+ * Return: value of the bit
  */
-int get_bit (unsigned long int n, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned long int d, c;
 
@@ -14,7 +14,7 @@ int get_bit (unsigned long int n, unsigned int index)
 		return (-1);
 	d = 1 << index;
 	c = n & d;
-	if ( c == d)
+	if (c == d)
 		return (1);
 	return (0);
 }

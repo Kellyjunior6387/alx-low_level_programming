@@ -6,7 +6,7 @@
  * @pow: power
  * Return: The result
  */
-unsigned long int_pow(unsigned int base, unsigned int pow)
+unsigned long int _pow(unsigned int base, unsigned int pow)
 {
 	unsigned long int i = 1;
 	unsigned int a;
@@ -15,7 +15,7 @@ unsigned long int_pow(unsigned int base, unsigned int pow)
 	{ 
 		i *= base;
 	}
-	return (i)
+	return (i);
 }
 /**
  * print_binary - prints a number in binary
