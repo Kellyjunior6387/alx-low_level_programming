@@ -12,7 +12,7 @@ unsigned long int _pow(unsigned int base, unsigned int pow)
 	unsigned int a;
 
 	for (a = 1; a <= pow; a++)
-	{ 
+	{
 		i *= base;
 	}
 	return (i);
@@ -26,7 +26,7 @@ void print_binary(unsigned long int n)
 	unsigned long int d, c;
 	char flag = 0;
 
-	d = _pow(2,sizeof(unsigned long int) * 8 - 1);
+	d = _pow(2, sizeof(unsigned long int) * 8 - 1);
 	while (d !=  0)
 	{
 		c = n & d;
