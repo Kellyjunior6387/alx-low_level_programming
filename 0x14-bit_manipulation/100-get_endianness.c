@@ -3,7 +3,7 @@
  * get_endianness - Check the endianness
  * Return: 0 if big endian, 1 if little endian
  */
-int get_endianess(void)
+int get_endianness()
 { 
 	int i;
 	char *a;
