@@ -5,14 +5,15 @@
  * @index: index of the node
  * Return: The nth node
  */
-dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index){
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
+{
 	dlistint_t *ptr;
 	size_t n = 0;
 
 	if (head == NULL)
 		return (NULL);
 	ptr = head;
-	while(ptr)
+	while (ptr)
 	{
 		if (n == index)
 			return (ptr);

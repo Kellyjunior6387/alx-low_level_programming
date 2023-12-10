@@ -3,6 +3,7 @@
  * add_dnodeint_end - Function to append node
  * @head: Pointer to head of the list
  * @n: Value of the node
+ * Return: Adress of the new node
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
