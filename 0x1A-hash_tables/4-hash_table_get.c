@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * hash_table_get - Function to retrieve a 
+ * hash_table_get - Function to retrieve a
  * value with an associated key
  * @ht: The hash table
  * @key: The key to be looked for
@@ -17,7 +17,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	current = ht->array[i];
 	while (current != NULL)
 	{
-		if (strcmp(current->key,key) == 0)
+		if (strcmp(current->key, key) == 0)
 			return (current->value);
 		current = current->next;
 	}
